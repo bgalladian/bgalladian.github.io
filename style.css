@@ -5,11 +5,17 @@ html{
 }
 
 body{
-  background-color: grey;
-  color: #eeeeee;
+  background-color: white;
+  color: white;
   font-size: 20px;
   line-height: 1.5;
+  margin: 0;
+  max-width: 100%;
 
+}
+
+main {
+  margin: 15px;
 }
 
 h1{
@@ -27,16 +33,30 @@ br{
 }
 
 nav{
-  text-align: center;
+  text-align: left;
   font-family: sans-serif;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+
 }
 
-footer{
+
+footer {
+
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: black;
   text-align: center;
 }
 
 a{
-  color: rgb(144,25,29);
+  color: white;);
   font-size: 20px;
 }
 
@@ -50,7 +70,9 @@ p{
 }
 
 IMG.BPG{
-  float: right;
+  padding-top: 50px;
+  display: block;
+  margin: auto;
   height: 300px;
   width: 300px;
   border-radius: 50%;
@@ -72,7 +94,6 @@ IMG.WBD{
   justify-content: center;
   margin: 50px auto;
   width: 50px auto;
-  background-color: rgb(144,25,29);
 }
 
 .portContainer{
@@ -82,5 +103,4 @@ IMG.WBD{
   justify-content: center;
   margin:  50px auto;
   width: 50px auto;
-  background-color: rgb(144,25,29);
 }
