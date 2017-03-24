@@ -1,27 +1,28 @@
 
 html{
-  font-family: helvetica;
+  font-family: 'Arimo', sans-serif;
   font-size: 12px;
 }
 
 body{
   background-color: white;
-  color: white;
+  color: grey;
   font-size: 20px;
   line-height: 1.5;
   margin: 0;
   max-width: 100%;
+  /*padding: 10px;*/
 
 }
 
 main {
   margin: 15px;
+  background-color: white;
 }
 
 h1{
   color: rgb(144,25,29);
   text-align: center;
-  font-family: helvetica;
 }
 
 h2{
@@ -32,16 +33,39 @@ br{
   line-height: 2;
 }
 
+/*Navigation Bar*/
 nav{
-  text-align: left;
-  font-family: sans-serif;
   position: fixed;
   top: 0;
   width: 100%;
   background-color: black;
   margin: 0;
   padding: 0;
+  text-align: center;
 
+}
+
+nav ul{
+  /*float: left;*/
+  display: inline;
+  margin: 2px;
+  font-size: 12px;
+}
+
+nav li{
+  display: inline;
+}
+
+nav a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .5rem;
+  transition: .6s background;
+
+}
+nav a:hover{
+  background: rgb(144,25,29);
 }
 
 
@@ -55,18 +79,8 @@ footer {
   text-align: center;
 }
 
-a{
-  color: white;);
-  font-size: 20px;
-}
-
-span{
-  color: white;
-  font-size: 20px;
-}
-
 p{
-  color: grey;
+  font-size: 12px;
 }
 
 IMG.BPG{
@@ -79,28 +93,67 @@ IMG.BPG{
 
 }
 
-IMG.WBD{
-  float: left;
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
+main {
+  display: flex;
+  flex-direction: column;
 
 }
 
-.amContainer{
-  padding: 10px;
+
+.about{
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 50px auto;
   width: 50px auto;
+
 }
 
-.portContainer{
-  padding: 10px;
+.portskills {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin:  50px auto;
-  width: 50px auto;
+  justify-content: space-between;
+  text-align: center;
+  /*background-image: url("images/Ararat_sunset.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;*/
+}
+
+
+.portfolio {
+  width: 500px;
+}
+
+.skills {
+  width: 200px;
+}
+.skills ul {
+  list-style-type: none;
+  text-align: left;
+
+}
+
+.typewriter h1 {
+  padding-top: 30px;
+  overflow: hidden;
+  border-right: .15em solid rgb(144,25,29);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .10em;
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(144,25,29); }
 }
