@@ -1,7 +1,7 @@
 
 html{
-  font-family: 'Arimo', sans-serif;
-  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
 }
 
 body{
@@ -11,13 +11,12 @@ body{
   line-height: 1.5;
   margin: 0;
   max-width: 100%;
-  /*padding: 10px;*/
 
 }
 
 main {
   margin: 15px;
-  background-color: white;
+
 }
 
 h1{
@@ -27,13 +26,10 @@ h1{
 
 h2{
   color: rgb(144,25,29);
+  text-align: center
 }
 
-br{
-  line-height: 2;
-}
 
-/*Navigation Bar*/
 nav{
   position: fixed;
   top: 0;
@@ -42,11 +38,11 @@ nav{
   margin: 0;
   padding: 0;
   text-align: center;
+  color: #197d7a;
 
 }
 
 nav ul{
-  /*float: left;*/
   display: inline;
   margin: 2px;
   font-size: 12px;
@@ -54,18 +50,20 @@ nav ul{
 
 nav li{
   display: inline;
+  padding: 10px;
 }
 
 nav a {
   display: inline-block;
   color: white;
   text-decoration: none;
-  padding: .5rem;
+  padding: 10px;
   transition: .6s background;
 
 }
 nav a:hover{
   background: rgb(144,25,29);
+  padding: 100px%;
 }
 
 
@@ -80,7 +78,7 @@ footer {
 }
 
 p{
-  font-size: 12px;
+  font-size: 14px;
 }
 
 IMG.BPG{
@@ -90,6 +88,7 @@ IMG.BPG{
   height: 300px;
   width: 300px;
   border-radius: 50%;
+  box-shadow: 10px 10px 5px grey;
 
 }
 
@@ -99,13 +98,16 @@ main {
 
 }
 
+.icons{
+  font-size: 12px;
+}
 
 .about{
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 50px auto;
-  width: 50px auto;
+  width: 70%;
 
 }
 
@@ -113,16 +115,15 @@ main {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  /*background-image: url("images/Ararat_sunset.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;*/
+  width: 90%
 }
 
 
 .portfolio {
-  width: 500px;
+  width: 800px;
+}
+.portfolio h2{
+  color: #191c7d;
 }
 
 .skills {
@@ -131,16 +132,25 @@ main {
 .skills ul {
   list-style-type: none;
   text-align: left;
-
+  font-size: 14px;
 }
 
+.skills h2{
+  color: #197d7a;
+}
+
+.typewriter {
+  margin: auto;
+  text-align: center;
+  width: 750px;
+}
 .typewriter h1 {
   padding-top: 30px;
   overflow: hidden;
   border-right: .15em solid rgb(144,25,29);
   white-space: nowrap;
   margin: 0 auto;
-  letter-spacing: .10em;
+  letter-spacing: .1em;
   animation:
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
