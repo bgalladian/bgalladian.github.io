@@ -130,31 +130,24 @@ main {
   font-size: 20px;
 }
 
+
+
 .portfolioBG {
   background-image: url(images/ararat.jpg);
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 
 .portfolio-content {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 75%;
+  justify-content: space-around;
+  align-items: center;
   margin: 0 auto;
-
-}
-
-.portfolio img {
-  height: 300px;
-  width: 400px;
   padding: 15px;
-
 }
 
 .skills ul{
@@ -205,4 +198,14 @@ main {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: rgb(144,25,29); }
+}
+
+.imghvr-fade img {
+  width: 400px;
+  height: 300px;
+
+}
+
+.imghvr-fade p{
+  text-align: center;
 }
