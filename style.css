@@ -18,6 +18,14 @@ h1{
   /*text-align: center;*/
 }
 
+.bpgbg {
+  background-image: url(images/galaxy.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 h2{
   color: rgb(144,25,29);
   text-align: center
@@ -100,13 +108,13 @@ p{
 }
 
 IMG.BPG{
-  padding-top: 50px;
+  padding: 50px;
   display: block;
   margin: auto;
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  box-shadow: 10px 10px 5px grey;
+  /*box-shadow: 10px 10px 5px grey;*/
 
 }
 
@@ -146,6 +154,7 @@ main {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   margin: 0 auto;
   padding: 15px;
 }
