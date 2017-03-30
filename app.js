@@ -1,5 +1,6 @@
-$(window).load(function () {
-        $("#tabs").removeClass("hideAll");
-    });
+$(window).on('load', _ => {
+    $('#preloader').delay(350).fadeOut('slow'); 
+    $('body').delay(350).css({'overflow':'visible'});
+})
 
-console.log("hello world")
+console.log("If you like my code or have suggestions, please feel free to let me know!")
