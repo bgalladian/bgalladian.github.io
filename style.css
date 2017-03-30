@@ -13,34 +13,6 @@ html{
   font-size: 14px;
 }
 
-body{
-  background-color: white;
-  color: #197d7a;
-  font-size: 20px;
-  line-height: 1.5;
-  margin: 0;
-  max-width: 100%;
-}
-
-h1{
-  color: rgb(144,25,29);
-  /*text-align: center;*/
-}
-
-.bpgbg {
-  background-image: url(images/galaxy.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
-h2{
-  color: rgb(144,25,29);
-  text-align: center
-}
-
-
 nav{
   position: fixed;
   top: 0;
@@ -51,8 +23,6 @@ nav{
   text-align: left;
   color: #197d7a;
   z-index: 1;
-
-
 }
 
 nav ul{
@@ -73,12 +43,54 @@ nav a {
   text-decoration: none;
   padding: 10px;
   transition: .6s background;
-
 }
+
 nav a:hover{
   background: rgb(144,25,29);
   padding: 100px%;
 }
+
+body {
+  background-color: white;
+  color: #197d7a;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 100%;
+}
+
+h1 {
+  color: rgb(144,25,29);
+}
+
+.bpgbg {
+  background-image: url(images/galaxy.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+
+}
+
+IMG.BPG {
+  padding: 5%;
+  display: block;
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+h2{
+  color: rgb(144,25,29);
+  text-align: center
+}
+
 footer ul{
   display: inline;
   margin: 2px;
@@ -97,11 +109,10 @@ footer a {
   transition: .6s background;
 
 }
-footer a:hover{
+footer a:hover {
   background: rgb(144,25,29);
   padding: 10px;
 }
-
 
 footer {
   right: 0;
@@ -117,20 +128,10 @@ p{
   font-size: 14px;
 }
 
-IMG.BPG{
-  padding: 5%;
+#btn{
   display: block;
-  margin: auto;
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-
+  margin: 15px auto;
+  cursor: pointer;
 }
 
 .icons{
@@ -147,8 +148,6 @@ main {
   font-size: 20px;
 }
 
-
-
 .portfolioBG {
   background-image: url(images/ararat.jpg);
   background-position: center;
@@ -157,16 +156,15 @@ main {
   background-size: cover;
 }
 
-
 .portfolio-content {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  margin: 0 auto;
-  padding: 15px;
-  width: 75%;
+  margin: 10px auto;
+  width: 90%;
+  padding: 100px;
 }
 
 .skills ul{
@@ -179,8 +177,6 @@ main {
   color: #197d7a;
 }
 
-
-
 .skills h2{
   color: #197d7a;
 }
@@ -189,12 +185,21 @@ main {
   text-align: center
 }
 
+.imghvr-fade img {
+  width: 350px;
+  height: 250px;
+}
+
+.imghvr-fade p{
+  text-align: center;
+}
 
 .typewriter {
   margin: auto;
   text-align: center;
   width: 750px;
 }
+
 .typewriter h1 {
   padding-top: 30px;
   overflow: hidden;
@@ -217,14 +222,4 @@ main {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: rgb(144,25,29); }
-}
-
-.imghvr-fade img {
-  width: 400px;
-  height: 300px;
-
-}
-
-.imghvr-fade p{
-  text-align: center;
 }
