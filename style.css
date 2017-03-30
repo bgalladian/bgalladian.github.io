@@ -48,7 +48,7 @@ nav{
 nav ul{
   display: inline;
   margin: 2px;
-  font-size: 12px;
+  font-size: 24px;
   float: right
 }
 
@@ -108,7 +108,7 @@ p{
 }
 
 IMG.BPG{
-  padding: 50px;
+  padding: 5%;
   display: block;
   margin: auto;
   height: 300px;
@@ -124,7 +124,7 @@ main {
 }
 
 .icons{
-  font-size: 12px;
+  font-size: 24px;
 }
 
 .about {
@@ -156,6 +156,7 @@ main {
   flex-wrap: wrap;
   margin: 0 auto;
   padding: 15px;
+  width: 75%;
 }
 
 .skills ul{
@@ -217,3 +218,7 @@ main {
 .imghvr-fade p{
   text-align: center;
 }
+
+.hideAll  {
+        visibility:hidden;
+     }
