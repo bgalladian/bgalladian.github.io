@@ -114,7 +114,6 @@ IMG.BPG{
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  /*box-shadow: 10px 10px 5px grey;*/
 
 }
 
@@ -152,7 +151,7 @@ main {
 .portfolio-content {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   margin: 0 auto;
