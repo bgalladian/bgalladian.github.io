@@ -153,6 +153,10 @@ p{
   font-size: 14px;
 }
 
+.about {
+  text-align: justify;
+}
+
 #btn{
   display: block;
   margin: 15px auto;
@@ -250,10 +254,6 @@ p{
 .btn{
   margin: 100px;
 }
-
-
-
-
 
 /* The typing effect */
 @keyframes typing {
