@@ -173,10 +173,10 @@ p{
   background-size: cover;
 }
 
-.portfolio-content {
+.portfolio {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   margin: 10px auto;
@@ -202,14 +202,43 @@ p{
   text-align: center
 }
 
-.imghvr-fade img {
-  width: 350px;
+
+.imghvr-fade1 {
+  background-image: url("images/ucq.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 250px;
+  width: 350px;
+  margin: 10px 0 ;
 }
 
-.imghvr-fade p{
-  text-align: center;
+.imghvr-fade2 {
+  background-image: url("images/oneShot.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 350px;
+  margin: 10px 0 ;
 }
+
+.imghvr-fade3 {
+  background-image: url("images/wasitworthit.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 350px;
+  margin: 10px 0 ;
+}
+
+figcaption {
+  padding: 10px;
+}
+
+
+
 
 .typewriter {
   margin: auto;
