@@ -218,36 +218,6 @@ p{
   text-align: center
 }
 
-
-.imghvr-fade1 {
-  background-image: url("images/ucq.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: 350px;
-  margin: 10px 0 ;
-}
-
-.imghvr-fade2 {
-  background-image: url("images/oneShot.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: 350px;
-  margin: 10px 0 ;
-}
-
-.imghvr-fade3 {
-  background-image: url("images/wasitworthit.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 250px;
-  width: 350px;
-  margin: 10px 0 ;
-}
 .typewriter {
   margin: auto;
   text-align: center;
@@ -268,11 +238,20 @@ p{
 
 .w3-modal-content, .w3-animate-zoom p{
   text-align: center;
+}
+
+.w3-modal-content {
+  border: solid rgb(144,25,29);
+  margin: 10px;
+}
+
 
 }
 .btn{
   margin: 100px;
 }
+
+
 
 
 
