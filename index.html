@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css">
   <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/1.0/css/imagehover.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
   <script src="app.js"></script>
   </head>
@@ -47,10 +48,6 @@
             I graduated from Towson University in 2010 with my Bachelors in Sports Managament.  After realizing that I enjoyed working with students,
              I went back to my alma matter to work on my Masters in Student Affairs and Higher Education experience.  During this time I was still making websites with different website builders,
              but was getting frustrated at the limitations they had.  This is when I made the committment to fully immerse myself into learning how to build amazing websites.
-            <br>
-            <br>
-            I soon came to realize that the basic HTML and CSS I learned in high school over 10 years ago, just wasn't going to cut it.
-            So I made the decision to leave my current job, and enroll in a program that could teach me all I need, and fast.
             Hence why I enrolled in the General Assembly Web Development Immersive, and am now a full-stack web developer.
              I look forward to all the challenges ahead of me, and what that might entail.
              <br>
@@ -62,44 +59,56 @@
    <h2 class="portfolio-header" id="portfolio-header">Portfolio</h2>
       <div class="portfolioBG">
         <div class="portfolio">
-              <figure class="imghvr-fade1">
-                  <figcaption>
-                      <p>My first project built with HTML, CSS, and JavaScript after 4 days of instruction.</p>
-                      <form action="http://www.bgallad.com/project-01/">
-                        <input type="submit" id="btn" value="Go to Website" />
-                      </form>
-                      <form action="https://github.com/bgalladian/project-01">
-                        <input type="submit" id="btn" value="Go to Code" />
-                      </form>
-                  </figcaption>
-              </figure>
-
-              <figure class="imghvr-fade2">
-                  <figcaption>
-                      <p>My first project with a team.  Built with a Rails backend with an Angular frontend.</p>
-                      <form action="https://sdkclements.github.io/oneShotFront/">
-                        <input type="submit" id="btn" value="Go to Website" />
-                      </form>
-                      <form action="https://github.com/sdkclements/oneShotFront">
-                        <input type="submit" id="btn" value="Go to Code" />
-                      </form>
-                  </figcaption>
-              </figure>
 
 
-              <figure class="imghvr-fade3">
-                  <img src="images/wasitworthit.png">
-                  <figcaption>
-                      <p>A movie review app with a "unique" ranking system.  Built with Ruby on Rails, with 3 models, a seach function, and user authentication.
-                      </p>
-                      <form action="http://wasitworthit.herokuapp.com">
-                        <input type="submit" id="btn" value="Go to Website" />
-                      </form>
-                      <form action="https://github.com/bgalladian/project-02">
-                        <input type="submit"  id="btn" value="Go to Code" />
-                      </form>
-                    </figcaption>
-              </figure>
+          <img src="images/ucq.png" style="width:30%;cursor:zoom-in"
+        onclick="document.getElementById('modal01').style.display='block'">
+
+        <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+
+          <div class="w3-modal-content w3-animate-zoom">
+            <p>My first project built with HTML, CSS, and JavaScript after 4 days of instruction.  It's a short sampling of the US citizenship quiz, that will alert users if they are correct or incorrect.  Tallys their score, and displays at the end as well.</p>
+            <form action="http://www.bgallad.com/project-01/">
+              <input type="submit" id="btn" value="Go to Website" />
+            </form>
+            <form action="https://github.com/bgalladian/project-01">
+              <input type="submit" id="btn" value="Go to Code" />
+            </form>
+          </div>
+        </div>
+
+
+
+              <img src="images/oneShot.png" style="width:30%;cursor:zoom-in"
+            onclick="document.getElementById('modal02').style.display='block'">
+
+            <div id="modal02" class="w3-modal" onclick="this.style.display='none'">
+
+              <div class="w3-modal-content w3-animate-zoom">
+                <p>My first project with a team.  Built with a Rails backend with an Angular frontend.  It is an anonymous message board with no delete or edit function.  Hence the user only gets "one shot".</p>
+                <form action="https://sdkclements.github.io/oneShotFront/">
+                  <input type="submit" id="btn" value="Go to Website" />
+                </form>
+                <form action="https://github.com/sdkclements/oneShotFront">
+                  <input type="submit" id="btn" value="Go to Code" />
+                </form>
+              </div>
+            </div>
+
+            <img src="images/wasitworthit.png" style="width:30%;cursor:zoom-in"
+          onclick="document.getElementById('modal03').style.display='block'">
+
+          <div id="modal03" class="w3-modal" onclick="this.style.display='none'">
+            <div class="w3-modal-content w3-animate-zoom">
+              <p>A movie review app with a "unique" ranking system.  Built with Ruby on Rails, with 3 models, a seach function, and user authentication.  Built over the course of 3 days.</p>
+              <form action="http://wasitworthit.herokuapp.com">
+                <input type="submit" id="btn" value="Go to Website" />
+              </form>
+              <form action="https://github.com/bgalladian/project-02">
+                <input type="submit"  id="btn" value="Go to Code" />
+              </form>
+            </div>
+          </div>
 
           </div>
         </div>
@@ -124,6 +133,12 @@
         </div>
 
 
+
+
+
+
+
+
     </main>
 
   </body>
@@ -136,6 +151,8 @@
         <li><a class="icons" href="mailto:bgalladian@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
       </ul>
     </footer>
+
+
 
 
 
