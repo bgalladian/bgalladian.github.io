@@ -20,11 +20,6 @@
 
 }
 
-html{
-  font-family: 'Raleway', sans-serif;
-  font-size: 14px;
-}
-
 nav{
   position: fixed;
   top: 0;
@@ -77,6 +72,12 @@ body {
   max-width: 100%;
 }
 
+
+
+header, main, footer, body, h1, h2, h3, h4, p {
+  font-family: 'Arimo', sans-serif;
+}
+
 h1 {
   color: rgb(144,25,29);
   text-shadow:
@@ -113,7 +114,8 @@ IMG.BPG {
 
 h2{
   color: rgb(144,25,29);
-  text-align: center
+  text-align: center;
+
 }
 
 footer ul{
@@ -196,12 +198,26 @@ p{
   margin: 0 auto;
 }
 
-
-
 .portfolio img{
   margin: 10px;
   min-height: 250px;
   min-width: 350px;
+}
+
+.w3-modal-content, .w3-animate-zoom p{
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.w3-modal-content {
+  border: solid rgb(144,25,29);
+  margin: 10px;
+  padding: 10px;
+}
+
+.btn{
+  margin: 100px;
 }
 
 .skills ul{
@@ -211,10 +227,6 @@ p{
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
-  color: #197d7a;
-}
-
-.skills h2{
   color: #197d7a;
 }
 
@@ -238,21 +250,6 @@ p{
   animation:
     typing 5.5s steps(40, end),
     blink-caret .75s step-end infinite;
-}
-
-.w3-modal-content, .w3-animate-zoom p{
-  text-align: center;
-}
-
-.w3-modal-content {
-  border: solid rgb(144,25,29);
-  margin: 10px;
-}
-
-
-}
-.btn{
-  margin: 100px;
 }
 
 /* The typing effect */

@@ -2,13 +2,12 @@
 
 <head>
   <title>Bedig P. Galladian | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
+  <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script src="app.js"></script>
   </head>
 <header>
@@ -26,10 +25,8 @@
     </nav>
   <hr>
   </header>
+
   <body>
-
-
-
     <main>
       <div class="bpgbg">
         <div class = "typewriter">
@@ -109,6 +106,18 @@
             </div>
           </div>
 
+          <img src="images/kicksstarter.png" style="width:30%;cursor:zoom-in"
+        onclick="document.getElementById('modal04').style.display='block'">
+
+          <div id="modal04" class="w3-modal" onclick="this.style.display='none'">
+            <div class="w3-modal-content w3-animate-zoom">
+              <p>A website where independent sneaker designers can submit custom designs to showcase their talents to other designers.  Built with Mongo, Express, ReactJS, and NodeJS.</p>
+              <form action="https://github.com/bgalladian/kickSStarter2">
+                <input type="submit"  id="btn" value="Go to Code" />
+              </form>
+            </div>
+          </div>
+
           </div>
         </div>
 
@@ -130,13 +139,6 @@
           </div>
         </div>
 
-
-
-
-
-
-
-
     </main>
 
   </body>
@@ -149,11 +151,4 @@
         <li><a class="icons" href="mailto:bgalladian@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
       </ul>
     </footer>
-
-
-
-
-
-
-
 </html>
