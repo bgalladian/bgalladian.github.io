@@ -39,27 +39,33 @@ nav{
 
 nav ul{
   display: inline;
-  margin: 2px;
-  font-size: 16px;
-  float: right
+  font-size: 20px;
+  float: right;
+  margin-right: 20px;
 }
 
 nav li{
   display: inline;
-  padding: 10px;
 }
 
 nav a {
-  display: inline-block;
+  display: inline;
   color: white;
   text-decoration: none;
-  padding: 10px;
+  padding: 20px;
   transition: .6s background;
 }
 
 nav a:hover{
   background: rgb(144,25,29);
   padding: 100px%;
+}
+
+nav p{
+  font-size: 20px;
+  margin-left: 20px;
+  display: inline-block;
+
 }
 
 body {
@@ -86,6 +92,8 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  margin-top: 30px;
+
 }
 
 main {
@@ -98,8 +106,8 @@ IMG.BPG {
   padding: 5%;
   display: block;
   margin: auto;
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
   border-radius: 50%;
 }
 
