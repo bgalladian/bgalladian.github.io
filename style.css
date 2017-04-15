@@ -193,7 +193,7 @@ p{
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  width: 90%;
+  width: 70%;
   padding: 50px;
   margin: 0 auto;
 }
@@ -204,21 +204,13 @@ p{
   min-width: 350px;
 }
 
-.w3-modal-content, .w3-animate-zoom p{
-  text-align: center;
-  margin: 10px;
-  padding: 10px;
-}
 
 .w3-modal-content {
   border: solid rgb(144,25,29);
-  margin: 10px;
-  padding: 10px;
+  text-align: center;
+
 }
 
-.btn{
-  margin: 100px;
-}
 
 .skills ul{
   list-style: none;
