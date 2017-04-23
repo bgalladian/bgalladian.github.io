@@ -180,7 +180,7 @@ p{
 }
 
 .portfolioBG {
-  background-image: url(images/bw-galaxy.jpg);
+  background-image: url(images/galaxy.jpg);
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -233,6 +233,7 @@ p{
 }
 
 .typewriter h1 {
+  font-size: 36px;
   padding-top: 30px;
   overflow: hidden;
   border-right: .15em solid rgb(144,25,29);
