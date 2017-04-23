@@ -6,8 +6,16 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css">
-  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/1.0/css/imagehover.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
   <script src="app.js"></script>
   </head>
@@ -16,15 +24,18 @@
     <img src="http://www.owlhatworld.com/wp-content/uploads/2015/12/36.gif">
  </div>
 
-    <nav>
-      <p>No good story starts with, "then I decided to stay home."</p>
-        <ul>
-          <li><a href="#portfolio-header">Portfolio</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="images/resume.pdf">Resume</a></li>
-        </ul>
-    </nav>
-  <hr>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-brand">Yalla</div>
+        <div class="collapse navbar-collapse navHeaderCollapse">
+          <ul class = "nav navbar-nav navbar-right">
+            <li><a href="#">Portfolio</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
   </header>
   <body>
 
@@ -32,9 +43,6 @@
 
     <main>
       <div class="bpgbg">
-        <div class = "typewriter">
-        <h1>&ltname&gt <font color="black">Bedig Galladian</font> &lt/name&gt</h1>
-        </div>
         <img class="BPG" src="images/lake.jpg" alt="BPG">
       </div>
 
@@ -59,50 +67,7 @@
           </p>
       </div>
 
-   <h2 class="portfolio-header" id="portfolio-header">Portfolio</h2>
-      <div class="portfolioBG">
-        <div class="portfolio">
-              <figure class="imghvr-fade1">
-                  <figcaption>
-                      <p>My first project built with HTML, CSS, and JavaScript after 4 days of instruction.</p>
-                      <form action="http://www.bgallad.com/project-01/">
-                        <input type="submit" id="btn" value="Go to Website" />
-                      </form>
-                      <form action="https://github.com/bgalladian/project-01">
-                        <input type="submit" id="btn" value="Go to Code" />
-                      </form>
-                  </figcaption>
-              </figure>
 
-              <figure class="imghvr-fade2">
-                  <figcaption>
-                      <p>My first project with a team.  Built with a Rails backend with an Angular frontend.</p>
-                      <form action="https://sdkclements.github.io/oneShotFront/">
-                        <input type="submit" id="btn" value="Go to Website" />
-                      </form>
-                      <form action="https://github.com/sdkclements/oneShotFront">
-                        <input type="submit" id="btn" value="Go to Code" />
-                      </form>
-                  </figcaption>
-              </figure>
-
-
-              <figure class="imghvr-fade3">
-                  <img src="images/wasitworthit.png">
-                  <figcaption>
-                      <p>A movie review app with a "unique" ranking system.  Built with Ruby on Rails, with 3 models, a seach function, and user authentication.
-                      </p>
-                      <form action="http://wasitworthit.herokuapp.com">
-                        <input type="submit" id="btn" value="Go to Website" />
-                      </form>
-                      <form action="https://github.com/bgalladian/project-02">
-                        <input type="submit"  id="btn" value="Go to Code" />
-                      </form>
-                    </figcaption>
-              </figure>
-
-          </div>
-        </div>
 
   <h2>Skills</h2>
         <div class = "skills" id="skills">
