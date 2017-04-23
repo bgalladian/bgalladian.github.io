@@ -1,154 +1,17 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
 
-<head>
-  <title>Bedig P. Galladian | Portfolio</title>
-  <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="app.js"></script>
+      <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
+    <title></title>
   </head>
-<header>
-  <div id="preloader">
-    <img src="http://www.owlhatworld.com/wp-content/uploads/2015/12/36.gif">
- </div>
-
-    <nav>
-      <p>No good story starts with, "then I decided to stay home."</p>
-        <ul>
-          <li><a href="#portfolio-header">Portfolio</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="images/resume.pdf">Resume</a></li>
-        </ul>
-    </nav>
-  <hr>
-  </header>
-
   <body>
-    <main>
-      <div class="bpgbg">
-        <div class = "typewriter">
-        <h1>&ltname&gt <font color="black">Bedig Galladian</font> &lt/name&gt</h1>
-        </div>
-        <img class="BPG" src="images/lake.jpg" alt="BPG">
-      </div>
-
-      <div class="about" id="about" name="about">
-          <p class="about">
-            Ever since I created my first email (that I shared with my sister on AOL) I have always been fascinated with the internet.  The first website I ever built was a fan site
-            for professional wrestling on GeoCities, and ever since then I've been hooked. I always built websites on the side for fun, but never pursued it a career option...until 3 months ago!
-            <br>
-            <br>
-            I graduated from Towson University in 2010 with my Bachelors in Sports Managament.  After realizing that I enjoyed working with students,
-             I went back to my alma matter to work on my Masters in Student Affairs and Higher Education experience.  During this time I was still making websites with different website builders,
-             but was getting frustrated at the limitations they had.  This is when I made the committment to fully immerse myself into learning how to build amazing websites.
-            Hence why I enrolled in the General Assembly Web Development Immersive, and am now a full-stack web developer.
-             I look forward to all the challenges ahead of me, and what that might entail.
-             <br>
-             <br>
-             I am currently in the DC area, and would love to meet!  Feel free to contact me below if you have any questions.
-          </p>
-      </div>
-
-   <h2 class="portfolio-header" id="portfolio-header">Portfolio</h2>
-      <div class="portfolioBG">
-        <div class="portfolio">
-
-
-          <img src="images/ucq.png" style="width:30%;cursor:zoom-in"
-        onclick="document.getElementById('modal01').style.display='block'">
-
-        <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
-
-          <div class="w3-modal-content w3-animate-zoom">
-            <p>My first project built with HTML, CSS, and JavaScript after 4 days of instruction.  It's a short sampling of the US citizenship quiz, that will alert users if they are correct or incorrect.  Tallys their score, and displays at the end as well.</p>
-            <form action="http://www.bgallad.com/project-01/">
-              <input type="submit" id="btn" value="Go to Website" />
-            </form>
-            <form action="https://github.com/bgalladian/project-01">
-              <input type="submit" id="btn" value="Go to Code" />
-            </form>
-          </div>
-        </div>
-
-
-
-              <img src="images/oneShot.png" style="width:30%;cursor:zoom-in"
-            onclick="document.getElementById('modal02').style.display='block'">
-
-            <div id="modal02" class="w3-modal" onclick="this.style.display='none'">
-
-              <div class="w3-modal-content w3-animate-zoom">
-                <p>My first project with a team.  Built with a Rails backend with an Angular frontend.  It is an anonymous message board with no delete or edit function.  Hence the user only gets "one shot".</p>
-                <form action="https://sdkclements.github.io/oneShotFront/">
-                  <input type="submit" id="btn" value="Go to Website" />
-                </form>
-                <form action="https://github.com/sdkclements/oneShotFront">
-                  <input type="submit" id="btn" value="Go to Code" />
-                </form>
-              </div>
-            </div>
-
-            <img src="images/wasitworthit.png" style="width:30%;cursor:zoom-in"
-          onclick="document.getElementById('modal03').style.display='block'">
-
-          <div id="modal03" class="w3-modal" onclick="this.style.display='none'">
-            <div class="w3-modal-content w3-animate-zoom">
-              <p>A movie review app with a "unique" ranking system.  Built with Ruby on Rails, with 3 models, a seach function, and user authentication.  Built over the course of 3 days.</p>
-              <form action="http://wasitworthit.herokuapp.com">
-                <input type="submit" id="btn" value="Go to Website" />
-              </form>
-              <form action="https://github.com/bgalladian/project-02">
-                <input type="submit"  id="btn" value="Go to Code" />
-              </form>
-            </div>
-          </div>
-
-          <img src="images/kicksstarter.png" style="width:30%;cursor:zoom-in"
-        onclick="document.getElementById('modal04').style.display='block'">
-
-          <div id="modal04" class="w3-modal" onclick="this.style.display='none'">
-            <div class="w3-modal-content w3-animate-zoom">
-              <p>A website where independent sneaker designers can submit custom designs to showcase their talents to other designers.  Built with Mongo, Express, ReactJS, and NodeJS.</p>
-              <form action="https://github.com/bgalladian/kickSStarter2">
-                <input type="submit"  id="btn" value="Go to Code" />
-              </form>
-            </div>
-          </div>
-
-          </div>
-        </div>
-
-  <h2>Skills</h2>
-        <div class = "skills" id="skills">
-          <div class="skills-icons">
-            <ul>
-              <li><p>HTML</p><i class="icon-html5-alt"></i></li>
-              <li><p>CSS</p><i class="icon-css3-alt"></i></li>
-              <li><p>JavaScript</p><i class="icon-javascript-alt"></i></li>
-              <li><p>ReactJS</p><i class="icon-reactjs"></i></li>
-              <li><p>MongoDB</p><i class="icon-mongodb"></i></li>
-              <li><p>AngularJS</p><i class="icon-angular"></i></li>
-              <li><p>NodeJS</p><i class="icon-nodejs"></i></li>
-              <li><p>Git</p><i class="icon-git"></i></li>
-              <li><p>Ruby</p><i class="icon-ruby"></i></li>
-              <li><p>Rails</p><i class="icon-ruby-on-rails-alt"></i></li>
-            </ul>
-          </div>
-        </div>
-
-    </main>
 
   </body>
-
-    <footer>
-      <ul>
-        <li>Contact me:</li>
-        <li><a class="icons" href="https://www.linkedin.com/in/bgalladian/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-        <li><a class="icons" href="https://github.com/bgalladian" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-        <li><a class="icons" href="mailto:bgalladian@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-      </ul>
-    </footer>
 </html>
