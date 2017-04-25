@@ -105,15 +105,16 @@ main {
 }
 
 IMG.BPG {
-  padding: 5%;
+  margin-top: 50px;
+  border-radius: 50%;
+  height: 700px;
+  width: 700px;
+  padding: 10%;
   position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 500px;
-    height: 500px;
-    margin-top: -250px; /* Half the height */
-    margin-left: -250px; /* Half the width */
-    border-radius: 50%
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
 
 }
 
@@ -202,11 +203,13 @@ p{
   margin: auto;
   text-align: center;
   width: 750px;
+
 }
 
 .typewriter h1 {
   font-size: 36px;
   padding-top: 30px;
+
   overflow: hidden;
   border-right: .15em solid rgb(144,25,29);
   white-space: nowrap;
