@@ -1,1 +1,0 @@
-# bgalladian.github.io

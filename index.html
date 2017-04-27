@@ -1,155 +1,354 @@
-<!DOCTYPE html>
+<!doctype html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-<head>
-  <title>Bedig P. Galladian | Portfolio</title>
-  <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="app.js"></script>
-  </head>
-<header>
-  <div id="preloader">
-    <img src="http://www.owlhatworld.com/wp-content/uploads/2015/12/36.gif">
- </div>
+	<title>Bedig Galladian</title>
 
-    <nav>
-      <p>No good story starts with, "then I decided to stay home."</p>
-        <ul>
-          <li><a href="#portfolio-header">Portfolio</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="images/resume.pdf">Resume</a></li>
-        </ul>
-    </nav>
-  <hr>
-  </header>
-
-  <body>
-    <main>
-      <div class="bpgbg">
-        <div class = "typewriter">
-        <h1>&ltname&gt <font color="black">Bedig Galladian</font> &lt/name&gt</h1>
-        </div>
-        <img class="BPG" src="images/lake.jpg" alt="BPG">
-      </div>
-
-      <div class="about" id="about" name="about">
-          <p class="about">
-            Ever since I created my first email (that I shared with my sister on AOL) I have always been fascinated with the internet.  The first website I ever built was a fan site
-            for professional wrestling on GeoCities, and ever since then I've been hooked. I always built websites on the side for fun, but never pursued it a career option...until 3 months ago!
-            <br>
-            <br>
-            I graduated from Towson University in 2010 with my Bachelors in Sports Managament.  After realizing that I enjoyed working with students,
-             I went back to my alma matter to work on my Masters in Student Affairs and Higher Education experience.  During this time I was still making websites with different website builders,
-             but was getting frustrated at the limitations they had.  This is when I made the committment to fully immerse myself into learning how to build amazing websites.
-            Hence why I enrolled in the General Assembly Web Development Immersive, and am now a full-stack web developer.
-             I look forward to all the challenges ahead of me, and what that might entail.
-             <br>
-             <br>
-             I am currently in the DC area, and would love to meet!  Feel free to contact me below if you have any questions.
-          </p>
-      </div>
-
-   <h2 class="portfolio-header" id="portfolio-header">Portfolio</h2>
-      <div class="portfolioBG">
-        <div class="portfolio">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="fancybox/jquery.fancybox-v=2.1.5.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/font-awesome.min.css" rel="stylesheet">
+		<link href="css/ihover.css" rel="stylesheet">
 
 
-          <img src="images/ucq.png" style="width:30%;cursor:zoom-in"
-        onclick="document.getElementById('modal01').style.display='block'">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-        <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
-
-          <div class="w3-modal-content w3-animate-zoom">
-            <p>My first project built with HTML, CSS, and JavaScript after 4 days of instruction.  It's a short sampling of the US citizenship quiz, that will alert users if they are correct or incorrect.  Tallys their score, and displays at the end as well.</p>
-            <form action="http://www.bgallad.com/project-01/">
-              <input type="submit" id="btn" value="Go to Website" />
-            </form>
-            <form action="https://github.com/bgalladian/project-01">
-              <input type="submit" id="btn" value="Go to Code" />
-            </form>
-          </div>
-        </div>
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,300,200&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
 
+	<link rel="prefetch" href="images/zoom.png">
 
-              <img src="images/oneShot.png" style="width:30%;cursor:zoom-in"
-            onclick="document.getElementById('modal02').style.display='block'">
+</head>
 
-            <div id="modal02" class="w3-modal" onclick="this.style.display='none'">
+<body>
+	<div class="navbar navbar-fixed-top" data-activeslide="1">
+		<div class="container">
 
-              <div class="w3-modal-content w3-animate-zoom">
-                <p>My first project with a team.  Built with a Rails backend with an Angular frontend.  It is an anonymous message board with no delete or edit function.  Hence the user only gets "one shot".</p>
-                <form action="https://sdkclements.github.io/oneShotFront/">
-                  <input type="submit" id="btn" value="Go to Website" />
-                </form>
-                <form action="https://github.com/sdkclements/oneShotFront">
-                  <input type="submit" id="btn" value="Go to Code" />
-                </form>
-              </div>
-            </div>
+			<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
 
-            <img src="images/wasitworthit.png" style="width:30%;cursor:zoom-in"
-          onclick="document.getElementById('modal03').style.display='block'">
 
-          <div id="modal03" class="w3-modal" onclick="this.style.display='none'">
-            <div class="w3-modal-content w3-animate-zoom">
-              <p>A movie review app with a "unique" ranking system.  Built with Ruby on Rails, with 3 models, a seach function, and user authentication.  Built over the course of 3 days.</p>
-              <form action="http://wasitworthit.herokuapp.com">
+			<div class="nav-collapse collapse navbar-responsive-collapse">
+				<ul class="nav row">
+					<li data-slide="1" class="col-12 col-sm-2"><a id="menu-link-1" href="#slide-1" title="Next Section"><span class="icon icon-home"></span> <span class="text">HOME</span></a></li>
+					<li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-2" title="Next Section"><span class="icon icon-user"></span> <span class="text">ABOUT ME</span></a></li>
+					<li data-slide="7" class="col-12 col-sm-2"><a id="menu-link-7" href="#slide-7" title="Next Section"><span class="icon icon-briefcase"></span> <span class="text">PORTFOLIO</span></a></li>
+					<li data-slide="4" class="col-12 col-sm-2"><a id="menu-link-4" href="#slide-4" title="Next Section"><span class="icon icon-gears"></span> <span class="text">SKILLS</span></a></li>
+					<li data-slide="5" class="col-12 col-sm-2"><a id="menu-link-5" href="#slide-5" title="Next Section"><span class="icon icon-file"></span> <span class="text">RESUME</span></a></li>
+					<li data-slide="6" class="col-12 col-sm-2"><a id="menu-link-6" href="#slide-6" title="Next Section"><span class="icon icon-envelope"></span> <span class="text">CONTACT</span></a></li>
+				</ul>
+				<div class="row">
+					<div class="col-sm-2 active-menu"></div>
+				</div>
+			</div><!-- /.nav-collapse -->
+		</div><!-- /.container -->
+	</div><!-- /.navbar -->
+
+
+	<!-- === Arrows === -->
+	<div id="arrows">
+		<div id="arrow-up" class="disabled"></div>
+		<div id="arrow-down"></div>
+		<div id="arrow-left" class="disabled visible-lg"></div>
+		<div id="arrow-right" class="disabled visible-lg"></div>
+	</div><!-- /.arrows -->
+
+
+	<!-- === MAIN Background === -->
+	<div class="slide story" id="slide-1" data-slide="1">
+		<div class="container">
+			<div id="home-row-1" class="row clearfix">
+				<div class="col-12">
+					<h1 class="font-semibold">Bedig <span class="font-thin">Galladian</span></h1>
+					<h4 class="font-thin">I am a <span class="font-semibold">Full Stack Web Developer</span></h4>
+					<br>
+					<br>
+				</div><!-- /col-12 -->
+			</div><!-- /row -->
+			<div id="home-row-2" class="row clearfix">
+				<div class="col-12 col-sm-6"><span>PROFESSIONAL</span></div>
+				<div class="col-12 col-sm-6"><span>PERSONABLE</span></div>
+				<!-- <div class="col-12 col-sm-4"><span>SUITABLE</span></div> -->
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /slide1 -->
+
+	<!-- === Slide 2 === -->
+	<div class="slide story" id="slide-2" data-slide="2">
+		<div class="container">
+			<div class="row title-row">
+				<div class="col-12 font-thin">About <span class="font-semibold">Me</span></div>
+			</div><!-- /row -->
+			<div class="row line-row">
+				<div class="hr">&nbsp;</div>
+			</div><!-- /row -->
+			<div class="row subtitle-row">
+				<div class="col-12 font-thin">Knower of <span class="font-semibold">useless facts</span></div>
+			</div><!-- /row -->
+			<div class="row content-row">
+				<div class="col-12 col-lg-4 col-sm-6">
+					<p><i class="icon-book"></i></p>
+					<h2 class="font-thin">How I Was <span class="font-semibold">Educated</span></h2>
+					<h4 class="font-thin">I graduated from Towson University in 2012 with my Masters in Student Affairs and Higher Education Administration. After many years of advising students, I decided to that one of my hobbies (web development) is something I would like to pursue.  Hence why enrolled in General Assemblys Web Immersive Program!  </h4>
+				</div><!-- /col12 -->
+				<div class="col-12 col-lg-4 col-sm-6">
+					<p><i class="icon icon-laptop"></i></p>
+					<h2 class="font-thin">My Personal <span class="font-semibold">Skills</span></h2>
+					<h4 class="font-thin">As a former Student Affairs professional, I have leadership and collaboration skills as well as creativity.  I also possess strong interpersonal and social communication skills and can interact with supervisors, coworkers, and clients alike to achieve a desired product.  I have a strong detail focus, and can work well under pressure.
+</h4>
+				</div><!-- /col12 -->
+				<div class="col-12 col-lg-4 col-sm-6">
+					<p><i class="icon icon-smile"></i></p>
+					<h2 class="font-thin">What I Do For <span class="font-semibold">Fun</span></h2>
+					<h4 class="font-thin">I love to learn and be creative, which is what web development has done for me. Other than coding, I love to research various historical events, and watch movies constantly.  Netflix is always on in my home. I hope to write sreenplay one day.  My perfect day is a set of Legos to build with and a good movie on the TV.  Avid sneakerhead.</h4>
+				</div><!-- /col12 -->
+
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /slide2 -->
+
+	<!-- === SLide 3 - Portfolio -->
+		<div class="slide story" id="slide-7" data-slide="7">
+			<div class="row">
+
+				<div class="container">
+					<div class="row title-row">
+						<div class="col-12 font-thin">My  <span class="font-semibold">Portfolio</span></div>
+					</div><!-- /row -->
+					<div class="row line-row">
+						<div class="hr">&nbsp;</div>
+					</div><!-- /row -->
+					<div class="row subtitle-row">
+						<div class="col-12 font-thin">Take a look at some of my works</span></div>
+					</div><!-- /row -->
+
+					<div class="row content-row">
+						<div class="col-12 col-lg-3 col-sm-6">
+							<p><img src="images/ucq.png"></p>
+							<h2 class="font-thin"><span class="font-semibold">US Citzenship Quiz</span></h2>
+							<h4 class="font-thin">Small sampling of the US Citizenship Test Built with just HTML, CSS, and Vanilla Javascript in 3 days.  </h4>
+							<form action="http://www.bgallad.com/project-01/">
+						<input type="submit" id="btn" value="Go to Website" />
+					</form>
+					<form action="https://github.com/bgalladian/project-01">
+						<input type="submit" id="btn" value="Go to Code" />
+					</form>
+						</div><!-- /col12 -->
+
+						<div class="col-12 col-lg-3 col-sm-6">
+							<p><img src="images/wasitworthit.png"></p>
+							<h2 class="font-thin"><span class="font-semibold">Was It It Worth It?</span></h2>
+							<h4 class="font-thin">A movie review application with a "unique" Rating System.  Built with Ruby on Rails in 3 days.</h4>
+							<form action="http://wasitworthit.herokuapp.com">
                 <input type="submit" id="btn" value="Go to Website" />
               </form>
               <form action="https://github.com/bgalladian/project-02">
                 <input type="submit"  id="btn" value="Go to Code" />
               </form>
-            </div>
-          </div>
+						</div><!-- /col12 -->
 
-          <img src="images/kicksstarter.png" style="width:30%;cursor:zoom-in"
-        onclick="document.getElementById('modal04').style.display='block'">
+						<div class="col-12 col-lg-3 col-sm-6">
+							<p><img src="images/oneShot.png"></p>
+							<h2 class="font-thin"><span class="font-semibold">oneShot</span></h2>
+							<h4 class="font-thin">Anonymous message board with no delete or edit function. Hence the user only gets "one shot".</h4>
+							<form action="https://sdkclements.github.io/oneShotFront/">
+                  <input type="submit" id="btn" value="Go to Website" />
+                </form>
+                <form action="https://github.com/sdkclements/oneShotFront">
+                  <input type="submit" id="btn" value="Go to Code" />
+                </form>
+						</div><!-- /col12 -->
 
-          <div id="modal04" class="w3-modal" onclick="this.style.display='none'">
-            <div class="w3-modal-content w3-animate-zoom">
-              <p>A website where independent sneaker designers can submit custom designs to showcase their talents to other designers.  Built with Mongo, Express, ReactJS, and NodeJS.</p>
-              <form action="https://github.com/bgalladian/kickSStarter2">
+						<div class="col-12 col-lg-3 col-sm-6">
+							<p><img src="images/kicksstarter.png"></p>
+							<h2 class="font-thin"><span class="font-semibold">kickSStarter</span></h2>
+							<h4 class="font-thin">Independent sneaker designers can submit custom designs to showcase their. Bult with a MERN stack.</h4>
+							<form action="https://github.com/bgalladian/kickSStarter2">
                 <input type="submit"  id="btn" value="Go to Code" />
               </form>
-            </div>
-          </div>
-
-          </div>
-        </div>
-
-  <h2>Skills</h2>
-        <div class = "skills" id="skills">
-          <div class="skills-icons">
-            <ul>
-              <li><p>HTML</p><i class="icon-html5-alt"></i></li>
-              <li><p>CSS</p><i class="icon-css3-alt"></i></li>
-              <li><p>JavaScript</p><i class="icon-javascript-alt"></i></li>
-              <li><p>ReactJS</p><i class="icon-reactjs"></i></li>
-              <li><p>MongoDB</p><i class="icon-mongodb"></i></li>
-              <li><p>AngularJS</p><i class="icon-angular"></i></li>
-              <li><p>Git</p><i class="icon-git"></i></li>
-              <li><p>Ruby</p><i class="icon-ruby"></i></li>
-              <li><p>Rails</p><i class="icon-ruby-on-rails-alt"></i></li>
-              <li><p>NodeJS</p><i class="icon-nodejs"></i></li>
-            </ul>
-          </div>
-        </div>
+						</div><!-- /col12 -->
 
 
-    </main>
+					</div><!-- /row -->
+				</div><!-- /container -->
 
-  </body>
 
-    <footer>
-      <ul>
-        <li>Contact me:</li>
-        <li><a class="icons" href="https://www.linkedin.com/in/bgalladian/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-        <li><a class="icons" href="https://github.com/bgalladian" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-        <li><a class="icons" href="mailto:bedig.galladian@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-      </ul>
-    </footer>
+
+
+
+
+
+
+			</div><!-- /row -->
+		</div><!-- /slide3 -->
+
+
+	<!-- === Slide 4 - Skills === -->
+	<div class="slide story" id="slide-4" data-slide="4">
+		<div class="container">
+			<div class="row title-row">
+				<div class="col-12 font-thin">See what <span class="font-semibold">I can do</span></div>
+			</div><!-- /row -->
+			<div class="row line-row">
+				<div class="hr">&nbsp;</div>
+			</div><!-- /row -->
+			<div class="row subtitle-row">
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+				<div class="col-12 col-sm-10 font-light">Most important skill is being able to learn <span class="font-semibold">Fast</span></div>
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+			</div><!-- /row -->
+
+
+			<div class="row content-row">
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+				<div class="col-12 col-sm-4">
+					<h2 class="font-thin"><br><span class="font-semibold" >Front End</span></h2>
+					<h4 class="font-thin">
+						<p>HTML</p>
+						<p>CSS</p>
+						<p>JavaScript</p>
+						<p>jQuery</p>
+						<p>AngularJS</p>
+						<p>React</p>
+						<p>Bootstrap</p>
+						<p>Materialize</p>
+				</div><!-- /col12 -->
+				<div class="col-12 col-sm-3">
+					<h2 class="font-thin"><br><span class="font-semibold" >Back End</span></h2>
+					<h4 class="font-thin">
+						<p>Ruby</p>
+						<p>Rails</p>
+						<p>Mongoose</p>
+						<p>Sinatra</p>
+						<p>NodeJS</p>
+						<p>Express</p>
+						<p>PostGresQL</p>
+
+					</h4>
+				</div>
+				<div class="col-12 col-sm-3">
+					<h2 class="font-thin"><br><span class="font-semibold">Other</span></h2>
+					<h4 class="font-thin">
+						<p>GitHub</p>
+						<p>Heroku</p>
+						<p>Windows</p>
+						<p>MacOS</p>
+						<p>Microsoft Office Suite</p>
+						<p>Google Docs</p>
+						<p>User Stories</p>
+						<p>Wire Framing</p>
+
+					</h4>
+				</div>
+				<div class="col-12 col-sm-5">
+
+
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /slide4 -->
+
+
+	<!-- === Slide 5 === -->
+	<div class="slide story" id="slide-5" data-slide="5">
+		<div class="container">
+			<div class="row title-row">
+				<div class="col-12 font-thin">Take a look at my <span class="font-semibold">Resume</span></div>
+			</div><!-- /row -->
+			<div class="row line-row">
+				<div class="hr">&nbsp;</div>
+			</div><!-- /row -->
+			<div class="row subtitle-row">
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+				<div class="col-12 col-sm-10 font-light">
+					<embed src="images/resume.pdf" width="100%" height="1000px"></embed>
+
+				</div>
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+			</div><!-- /row -->
+
+		</div><!-- /container -->
+	</div><!-- /slide5 -->
+
+
+
+	<!-- === Slide 6 / Contact === -->
+	<div class="slide story" id="slide-6" data-slide="6">
+		<div class="container">
+			<div class="row title-row">
+				<div class="col-12 font-light">Leave me a <span class="font-semibold">message</span></div>
+			</div><!-- /row -->
+			<div class="row line-row">
+				<div class="hr">&nbsp;</div>
+			</div><!-- /row -->
+			<div class="row subtitle-row">
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+				<div class="col-12 col-sm-10 font-light">You can find me  anywhere, just push a button and I'm there</div>
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+			</div><!-- /row -->
+			<div id="contact-row-4" class="row">
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+				<div class="col-12 col-sm-2 with-hover-text">
+					<p><a target="_blank" href="#"><i class="icon icon-phone"></i></a></p>
+					<span class="hover-text font-light ">(240)-200-2418</span></a>
+				</div><!-- /col12 -->
+				<div class="col-12 col-sm-2 with-hover-text">
+					<p><a target="_blank" href="mailto:bedig.galladian@gmail.com"><i class="icon icon-envelope"></i></a></p>
+					<span class="hover-text font-light ">Feel free to email me!</span></a>
+				</div><!-- /col12 -->
+				<div class="col-12 col-sm-2 with-hover-text">
+					<p><i class="icon icon-home"></i></p>
+					<span class="hover-text font-light ">Washington, DC</span></a>
+				</div><!-- /col12 -->
+				<div class="col-12 col-sm-2 with-hover-text">
+					<p><a target="_blank" href="https://www.linkedin.com/in/bgalladian/"><i class="icon icon-linkedin"></i></a></p>
+					<span class="hover-text font-light ">Lets Connect on LinkedIn!</span></a>
+				</div><!-- /col12 -->
+				<div class="col-12 col-sm-2 with-hover-text">
+					<p><a target="_blank" href="www.github.com/bgalladian"><i class="icon icon-github"></i></a></p>
+					<span class="hover-text font-light ">Check out my work on Github!</span></a>
+				</div><!-- /col12 -->
+				<div class="col-sm-1 hidden-sm">&nbsp;</div>
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /Slide 6 -->
+
+</body>
+
+<footer>
+	&copy; Bedig Galladian 2017
+</footer>
+
+	<!-- SCRIPTS -->
+	<script src="js/html5shiv.js"></script>
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.fancybox.pack-v=2.1.5.js"></script>
+	<script src="js/script.js"></script>
+
+	<!-- fancybox init -->
+<script>
+$(document).ready(function(e) {
+	var lis = $('.nav > li');
+	menu_focus( lis[0], 1 );
+
+	$(".fancybox").fancybox({
+		padding: 10,
+		helpers: {
+			overlay: {
+				locked: false
+			}
+		}
+	});
+
+});
+</script>
+
 </html>
