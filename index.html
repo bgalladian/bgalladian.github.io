@@ -114,9 +114,9 @@
 
 	<!-- === SLide 3 - Portfolio -->
 		<div class="slide story" id="slide-7" data-slide="7">
-			<div class="row">
+			<div class="row align-items-">
 
-				<div class="container">
+				<div class="container-fluid">
 					<div class="row title-row">
 						<div class="col-12 font-thin">My  <span class="font-semibold">Portfolio</span></div>
 					</div><!-- /row -->
@@ -124,65 +124,150 @@
 						<div class="hr">&nbsp;</div>
 					</div><!-- /row -->
 					<div class="row subtitle-row">
-						<div class="col-12 font-thin">Take a look at some of my works</span></div>
+						<div class="col-12 font-thin">Take a look at some of my work</span></div>
 					</div><!-- /row -->
 
 					<div class="row content-row">
-						<div class="col-12 col-lg-3 col-sm-6">
-							<p><img src="images/ucq.png"></p>
+
+						<div class="col-12 col-lg-3 col-sm-">
+							<a href="http://www.bgallad.com/project-01/"><img src="images/ucq.png"></a>
 							<h2 class="font-thin"><span class="font-semibold">US Citzenship Quiz</span></h2>
-							<h4 class="font-thin">Small sampling of the US Citizenship Test Built with just HTML, CSS, and Vanilla Javascript in 3 days.  </h4>
-							<form action="http://www.bgallad.com/project-01/">
-						<input type="submit" id="btn" value="Go to Website" />
-					</form>
-					<form action="https://github.com/bgalladian/project-01">
-						<input type="submit" id="btn" value="Go to Code" />
-					</form>
+
+						<!-- Modal Button -->
+							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+							  Information
+							</button>
+
+							<!-- Modal -->
+							<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <h5 class="modal-title" id="exampleModalLabel">US Citizenship Quiz</h5>
+							        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							          <span aria-hidden="true">&times;</span>
+							        </button>
+							      </div>
+							      <div class="modal-body">
+							        Small sampling of the US Citizenship Test built with HTML, CSS, and JavaScript.
+							      </div>
+							      <div class="modal-footer">
+											<a href="https://bgalladian.github.io/project-01" class="btn btn-default" role="button" target="blank">Go to Site</a>
+											<a href="https://github.com/bgalladian/project-01" class="btn btn-default" role="button">Go to Code</a>
+							        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+							<!-- End of Modal -->
+
 						</div><!-- /col12 -->
 
 						<div class="col-12 col-lg-3 col-sm-6">
-							<p><img src="images/wasitworthit.png"></p>
+							<a href="http://wasitworthit.herokuapp.com"><img src="images/wasitworthit.png"></a>
 							<h2 class="font-thin"><span class="font-semibold">Was It It Worth It?</span></h2>
-							<h4 class="font-thin">A movie review application with a "unique" Rating System.  Built with Ruby on Rails in 3 days.</h4>
-							<form action="http://wasitworthit.herokuapp.com">
-                <input type="submit" id="btn" value="Go to Website" />
-              </form>
-              <form action="https://github.com/bgalladian/project-02">
-                <input type="submit"  id="btn" value="Go to Code" />
-              </form>
+
+							<!-- Modal Button -->
+								<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">
+								  Information
+								</button>
+
+								<!-- Modal -->
+								<div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								  <div class="modal-dialog" role="document">
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <h5 class="modal-title" id="exampleModalLabel">Was It Worth It?</h5>
+								        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								          <span aria-hidden="true">&times;</span>
+								        </button>
+								      </div>
+								      <div class="modal-body">
+												A movie review app with a "unique" ranking system.  Built with Ruby on Rails, with 3 models, a seach function, and user authentication.  Built over the course of 3 days.
+
+								      </div>
+								      <div class="modal-footer">
+												<a href="https://wasitworthit.herokuapp.com/" class="btn btn-default" role="button">Go to Site</a>
+												<a href="https://github.com/bgalladian/project-02" class="btn btn-default" role="button">Go to Code</a>
+								        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								      </div>
+								    </div>
+								  </div>
+								</div>
+								<!-- End of Modal -->
+
 						</div><!-- /col12 -->
 
 						<div class="col-12 col-lg-3 col-sm-6">
-							<p><img src="images/oneShot.png"></p>
+							<a href="https://sdkclements.github.io/oneShotFront/"><img src="images/oneShot.png"></a>
 							<h2 class="font-thin"><span class="font-semibold">oneShot</span></h2>
-							<h4 class="font-thin">Anonymous message board with no delete or edit function. Hence the user only gets "one shot".</h4>
-							<form action="https://sdkclements.github.io/oneShotFront/">
-                  <input type="submit" id="btn" value="Go to Website" />
-                </form>
-                <form action="https://github.com/sdkclements/oneShotFront">
-                  <input type="submit" id="btn" value="Go to Code" />
-                </form>
+
+								<!-- Modal Button -->
+									<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">
+										Information
+									</button>
+
+									<!-- Modal -->
+									<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title" id="exampleModalLabel">oneShot</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+														<span aria-hidden="true">&times;</span>
+													</button>
+												</div>
+												<div class="modal-body">
+													My first project with a team.  Built with a Rails backend with an Angular frontend.  It is an anonymous message board with no delete or edit function.  Hence the user only gets "one shot".
+
+												</div>
+												<div class="modal-footer">
+													<a href="https://sdkclements.github.io/oneShotFront/" class="btn btn-default" role="button">Go to Site</a>
+													<a href="https://github.com/sdkclements/oneShotFront" class="btn btn-default" role="button">Go to Code</a>
+													<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- End of Modal -->
+
 						</div><!-- /col12 -->
 
 						<div class="col-12 col-lg-3 col-sm-6">
 							<p><img src="images/kicksstarter.png"></p>
 							<h2 class="font-thin"><span class="font-semibold">kickSStarter</span></h2>
-							<h4 class="font-thin">Independent sneaker designers can submit custom designs to showcase their. Bult with a MERN stack.</h4>
-							<form action="https://github.com/bgalladian/kickSStarter2">
-                <input type="submit"  id="btn" value="Go to Code" />
-              </form>
+
+							<!-- Modal Button -->
+								<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">
+									Information
+								</button>
+
+								<!-- Modal -->
+								<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog" role="document">
+										<div class="modal-content">
+											<div class="modal-header">
+												<h5 class="modal-title" id="exampleModalLabel">kickSStarter</h5>
+												<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+													<span aria-hidden="true">&times;</span>
+												</button>
+											</div>
+											<div class="modal-body">
+												A website where independent sneaker designers can submit custom designs to showcase their talents to other designers.  Built with Mongo, Express, ReactJS, and NodeJS.
+
+											</div>
+											<div class="modal-footer">
+												<a thref="https://github.com/bgalladian/kickSStarter2" class="btn btn-default" role="button">Go to Code</a>
+												<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- End of Modal -->
+
 						</div><!-- /col12 -->
-
-
 					</div><!-- /row -->
 				</div><!-- /container -->
-
-
-
-
-
-
-
 
 			</div><!-- /row -->
 		</div><!-- /slide3 -->
@@ -310,7 +395,7 @@
 					<span class="hover-text font-light ">Lets Connect on LinkedIn!</span></a>
 				</div><!-- /col12 -->
 				<div class="col-12 col-sm-2 with-hover-text">
-					<p><a target="_blank" href="www.github.com/bgalladian"><i class="icon icon-github"></i></a></p>
+					<p><a target="_blank" href="http://www.github.com/bgalladian"><i class="icon icon-github"></i></a></p>
 					<span class="hover-text font-light ">Check out my work on Github!</span></a>
 				</div><!-- /col12 -->
 				<div class="col-sm-1 hidden-sm">&nbsp;</div>

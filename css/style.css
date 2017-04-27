@@ -541,7 +541,8 @@ body {
 #slide-7 input {
 	font-size: 12px;
 	width: 100px;
-	/*height: 40px;*/
+	height: 40px;
+	margin: 10px;
 	text-align: center;
 }
 
@@ -634,7 +635,20 @@ body {
 	cursor: pointer;
 }
 
-ul{
-  list-style: none;
-  text-align: center;
+.modal-dialog{
+   position: absolute;
+   left: 50%;
+   /* now you must set a margin left under zero - value is a half width your window */
+   margin-left: -312px;
+   /* this same situation is with height - example */
+   height: 500px;
+   top: 50%;
+   margin-top: -250px;
+	 color: black;
+}
+
+.modal-body {
+	color: black;
+	font-size: 12px;
+	line-height: normal;
 }
