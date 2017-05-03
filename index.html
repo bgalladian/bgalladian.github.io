@@ -21,6 +21,9 @@
 
 
 </head>
+<div id="preloader">
+	<img src="http://www.owlhatworld.com/wp-content/uploads/2015/12/36.gif">
+</div>
 
 <body>
 	<div class="navbar navbar-fixed-top" data-activeslide="1">
@@ -37,8 +40,8 @@
 			<div class="nav-collapse collapse navbar-responsive-collapse">
 				<ul class="nav row">
 					<li data-slide="1" class="col-12 col-sm-2"><a id="menu-link-1" href="#slide-1" title="Next Section"><span class="icon icon-home"></span> <span class="text">HOME</span></a></li>
-					<li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-2" title="Next Section"><span class="icon icon-user"></span> <span class="text">ABOUT ME</span></a></li>
 					<li data-slide="7" class="col-12 col-sm-2"><a id="menu-link-7" href="#slide-7" title="Next Section"><span class="icon icon-briefcase"></span> <span class="text">PORTFOLIO</span></a></li>
+					<li data-slide="2" class="col-12 col-sm-2"><a id="menu-link-2" href="#slide-2" title="Next Section"><span class="icon icon-user"></span> <span class="text">ABOUT ME</span></a></li>
 					<li data-slide="4" class="col-12 col-sm-2"><a id="menu-link-4" href="#slide-4" title="Next Section"><span class="icon icon-gears"></span> <span class="text">SKILLS</span></a></li>
 					<li data-slide="5" class="col-12 col-sm-2"><a id="menu-link-5" href="#slide-5" title="Next Section"><span class="icon icon-file"></span> <span class="text">RESUME</span></a></li>
 					<li data-slide="6" class="col-12 col-sm-2"><a id="menu-link-6" href="#slide-6" title="Next Section"><span class="icon icon-envelope"></span> <span class="text">CONTACT</span></a></li>
@@ -49,15 +52,6 @@
 			</div><!-- /.nav-collapse -->
 		</div><!-- /.container -->
 	</div><!-- /.navbar -->
-
-
-	<!-- === Arrows === -->
-	<div id="arrows">
-		<div id="arrow-up" class="disabled"></div>
-		<div id="arrow-down"></div>
-		<div id="arrow-left" class="disabled visible-lg"></div>
-		<div id="arrow-right" class="disabled visible-lg"></div>
-	</div><!-- /.arrows -->
 
 
 	<!-- === MAIN Background === -->
@@ -79,39 +73,6 @@
 		</div><!-- /container -->
 	</div><!-- /slide1 -->
 
-	<!-- === Slide 2 === -->
-	<div class="slide story" id="slide-2" data-slide="2">
-		<div class="container">
-			<div class="row title-row">
-				<div class="col-12 font-thin">About <span class="font-semibold">Me</span></div>
-			</div><!-- /row -->
-			<div class="row line-row">
-				<div class="hr">&nbsp;</div>
-			</div><!-- /row -->
-			<div class="row subtitle-row">
-				<div class="col-12 font-thin">Knower of <span class="font-semibold">useless facts</span></div>
-			</div><!-- /row -->
-			<div class="row content-row">
-				<div class="col-12 col-lg-4 col-sm-6">
-					<p><i class="icon-book"></i></p>
-					<h2 class="font-thin">How I Was <span class="font-semibold">Educated</span></h2>
-					<h4 class="font-thin">I graduated from Towson University in 2012 with my Masters in Student Affairs and Higher Education Administration. After many years of advising students, I decided that one of my hobbies (web development) is something I would like to pursue.  Hence why enrolled in General Assemblys Web Immersive Program!  </h4>
-				</div><!-- /col12 -->
-				<div class="col-12 col-lg-4 col-sm-6">
-					<p><i class="icon icon-laptop"></i></p>
-					<h2 class="font-thin">My Personal <span class="font-semibold">Skills</span></h2>
-					<h4 class="font-thin">As a former Student Affairs professional, I have leadership and collaboration skills as well as creativity.  I also possess strong interpersonal and social communication skills and can interact with supervisors, coworkers, and clients alike to achieve a desired product.  I have a strong detail focus, and can work well under pressure.
-</h4>
-				</div><!-- /col12 -->
-				<div class="col-12 col-lg-4 col-sm-6">
-					<p><i class="icon icon-smile"></i></p>
-					<h2 class="font-thin">What I Do For <span class="font-semibold">Fun</span></h2>
-					<h4 class="font-thin">I love to learn and be creative, which is what web development has done for me. Other than coding, I love to research various historical events, and watch movies constantly.  Netflix is always on in my home. I hope to write screenplay one day.  My perfect day is a set of Legos to build with and a good movie on the TV.  Avid sneakerhead.</h4>
-				</div><!-- /col12 -->
-
-			</div><!-- /row -->
-		</div><!-- /container -->
-	</div><!-- /slide2 -->
 
 	<!-- === SLide 3 - Portfolio -->
 		<div class="slide story" id="slide-7" data-slide="7">
@@ -132,6 +93,7 @@
 
 						<div class="col-12 col-lg-3 col-sm-6 with-hover-text">
 							<h4>US Citizenship Quiz</h4>
+							<h5>HTML, CSS, Javascript</h5>
 							<a target="_blank" href="http://www.bgallad.com/project-01/"><img src="images/ucq.png"></a><br>
 							<span class="hover-text font-light "><a class="btn btn-default" role="button" href="http://bgalladian.github.io/project-01">Site</a> | <a class="btn btn-default" role="button" href="http://www.github.com/bgalladian/project-01">Code</a></span></a>
 						</div><!-- /col12 -->
@@ -139,18 +101,21 @@
 
 						<div class="col-12 col-lg-3 col-sm-6 with-hover-text">
 							<h4>Was It Worth It?</h4>
+							<h5>Ruby on Rails</h5>
 							<a target="_blank" href="http://wasitworthit.herokuapp.com/"><img src="images/wasitworthit.png"></a><br>
 							<span class="hover-text font-light "><a class="btn btn-default" role="button" href="http://wasitworthit.herokuapp.com">Site</a> | <a class="btn btn-default" role="button" href="http://www.github.com/bgalladian/project-02">Code</a></span></a>
 						</div><!-- /col12 -->
 
 						<div class="col-12 col-lg-3 col-sm-6 with-hover-text">
 							<h4>oneShot</h4>
+							<h5>Rails back-end and Angular front-end</h5>
 							<a target="_blank" href="https://sdkclements.github.io/oneShotFront/"><img src="images/oneShot.png"></a><br>
 							<span class="hover-text font-light "><a class="btn btn-default" role="button" href="https://sdkclements.github.io/oneShotFront/">Site</a> | <a class="btn btn-default" role="button" href="https://github.com/sdkclements/oneShotFront">Code</a></span></a>
 						</div><!-- /col12 -->
 
 						<div class="col-12 col-lg-3 col-sm-6 with-hover-text">
 							<h4>kickSStarter</h4>
+							<h5>MongoDB, ExpressJS, ReactJS, NodeJS</h5>
 							<img src="images/kicksstarter.png"></a><br>
 							<span class="hover-text font-light "><a class="btn btn-default" role="button" href="http://www.github.com/bgalladian/kicksstarter_2">Code</a></span></a>
 						</div><!-- /col12 -->
@@ -159,6 +124,41 @@
 
 			</div><!-- /row -->
 		</div><!-- /slide3 -->
+
+	<!-- === Slide 2 === -->
+	<div class="slide story" id="slide-2" data-slide="2">
+		<div class="container">
+			<div class="row title-row">
+				<div class="col-12 font-thin">About <span class="font-semibold">Me</span></div>
+			</div><!-- /row -->
+			<div class="row line-row">
+				<div class="hr">&nbsp;</div>
+			</div><!-- /row -->
+			<div class="row subtitle-row">
+				<div class="col-12 font-thin">Knower of <span class="font-semibold">useless facts</span></div>
+			</div><!-- /row -->
+			<div class="row content-row">
+				<div class="col-12 col-lg-4 col-sm-6">
+					<p><i class="icon-book"></i></p>
+					<h2 class="font-thin">How I Was <span class="font-semibold">Educated</span></h2>
+					<h4 class="font-thin">I am a gradute of General Assembly.  Before that I got my Masters at Towson University in Student Affairs, and worked in Campus Activities.  At Towson University I led a team of 10 students through an entire years worth of events for our student body, culminating in Tigerfest.  It is an all day music festival with food vendors, merchandize, and an entire line up of acts.  We were able to sell out our 10,000 capacity.</h4>
+				</div><!-- /col12 -->
+				<div class="col-12 col-lg-4 col-sm-6">
+					<p><i class="icon icon-laptop"></i></p>
+					<h2 class="font-thin">My Personal <span class="font-semibold">Skills</span></h2>
+					<h4 class="font-thin">As a former Student Affairs professional, I have leadership and collaboration skills as well as creativity.  I also possess strong interpersonal and social communication skills and can interact with supervisors, coworkers, and clients alike to achieve a desired product.  I have a strong detail focus, and can work well under pressure.  Extrememly resourceful, and able to find the solution to any problem</h4>
+				</div><!-- /col12 -->
+				<div class="col-12 col-lg-4 col-sm-6">
+					<p><i class="icon icon-smile"></i></p>
+					<h2 class="font-thin">What I Do For <span class="font-semibold">Fun</span></h2>
+					<h4 class="font-thin">I love to learn and be creative, which is what web development has done for me. Other than coding, I love to research various historical events, and watch movies constantly.  Netflix is always on in my home. I hope to write screenplay one day based on my own experiences in life.  My perfect day is a set of Legos to build with and a good movie on the TV.  Avid sneakerhead, and once proud owner of over 70 pairs of sneakers!</h4>
+				</div><!-- /col12 -->
+
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /slide2 -->
+
+
 
 
 	<!-- === Slide 4 - Skills === -->
@@ -179,7 +179,7 @@
 
 			<div class="row content-row">
 				<div class="col-sm-1 hidden-sm">&nbsp;</div>
-				<div class="col-12 col-sm-4">
+				<div class="col-12 col-sm-3">
 					<h2 class="font-thin"><br><span class="font-semibold" >Front End</span></h2>
 					<h4 class="font-thin">
 						<p>HTML</p>
@@ -191,7 +191,7 @@
 						<p>Bootstrap</p>
 						<p>Materialize</p>
 				</div><!-- /col12 -->
-				<div class="col-12 col-sm-3">
+				<div class="col-12 col-sm-4">
 					<h2 class="font-thin"><br><span class="font-semibold" >Back End</span></h2>
 					<h4 class="font-thin">
 						<p>Ruby</p>
