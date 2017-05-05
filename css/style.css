@@ -257,6 +257,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
+    height: 100vh;
 	background-attachment: relative;
 	background-position: center center;
 }
@@ -549,24 +550,20 @@ body {
 	font-size: 35px;
 	line-height: 50px;
 	text-align: center;
+  height: 100%;
 }
 
 #slide-7 img{
 	height: 200px;
 	width: 200px;
+
 }
 
 #slide-7 h3 {
 	color: red;
 }
 
-#slide-7 input {
-	font-size: 12px;
-	width: 100px;
-	height: 40px;
-	margin: 10px;
-	text-align: center;
-}
+
 
 #lightbox-out {
 	background-color: rgba( 0, 0, 0, 0.7 );
@@ -579,79 +576,6 @@ body {
 .with-hover-text span {
 	display: none;
 }
-
-/*.zoom {
-	background-image: url('../images/zoom.png');
-	background-position: center center;
-	background-repeat: no-repeat;
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	z-index: 999;
-}
-
-#arrows {
-	bottom: 10%;
-	height: 80px;
-	position: fixed;
-	right: 10%;
-	width: 80px;
-	z-index: 1000;
-}
-
-#arrows div {
-	background-image: url('../images/website-arrows.png');
-	cursor: pointer;
-	height: 30px;
-	position: absolute;
-	width: 30px;
-}
-
-#arrows div.disabled {
-	cursor: default;
-}
-
-#arrow-up {
-	background-position: 30px 0;
-	left: 25px;
-	top: 0;
-}
-
-#arrow-up.disabled {
-	background-position: 0 0;
-}
-
-#arrow-down {
-	background-position: 30px -30px;
-	left: 25px;
-	bottom: 0;
-}
-
-#arrow-down.disabled {
-	background-position: 0 -30px;
-}
-
-#arrow-left {
-	background-position: 30px -60px;
-	left: 0;
-	top: 25px;
-}
-
-#arrow-left.disabled {
-	background-position: 0 -60px;
-}
-
-#arrow-right {
-	background-position: 30px -90px;
-	right: 0;
-	top: 25px;
-}
-
-#arrow-right.disabled {
-	background-position: 0 -90px;
-}*/
 
 .navigation-slide {
 	cursor: pointer;
