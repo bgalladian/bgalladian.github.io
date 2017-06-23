@@ -260,10 +260,14 @@ body {
     width: 100%;
 	background-attachment: relative;
 	background-position: center center;
+  height: 100vh;
+
 }
 
 #slide-1 h1 {
-	padding-top: 130px;
+	padding-top: 30%;
+  vertical-align: middle;
+
 }
 
 @media (max-width: 991px) {
