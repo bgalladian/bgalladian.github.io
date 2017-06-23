@@ -265,14 +265,14 @@ body {
 }
 
 #slide-1 h1 {
-	padding-top: 30%;
+	padding-top: 50%;
   vertical-align: middle;
 
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1000px) {
 	#slide-1 {
-		background-position: -70% 0, 170% 0;
+		background-image: none;
 	}
 }
 
