@@ -549,19 +549,15 @@ body {
 	line-height: 50px;
 	text-align: center;
 
+
+
 }
 
 #slide-7 img{
-	height: 200px;
-	width: 200px;
+	height: 300px;
+	width: 400px;
 
 }
-
-#slide-7 h3 {
-	color: red;
-}
-
-
 
 #lightbox-out {
 	background-color: rgba( 0, 0, 0, 0.7 );
@@ -577,22 +573,4 @@ body {
 
 .navigation-slide {
 	cursor: pointer;
-}
-
-.modal-dialog{
-   position: absolute;
-   left: 50%;
-   /* now you must set a margin left under zero - value is a half width your window */
-   margin-left: -312px;
-   /* this same situation is with height - example */
-   height: 500px;
-   top: 50%;
-   margin-top: -250px;
-	 color: black;
-}
-
-.modal-body {
-	color: black;
-	font-size: 12px;
-	line-height: normal;
 }
